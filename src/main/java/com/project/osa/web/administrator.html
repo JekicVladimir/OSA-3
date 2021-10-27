@@ -1,0 +1,41 @@
+<html>
+	<head>
+	
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	
+	</head>
+	<body>
+		<button id="izmenaLicnihPodataka">Izmena licnih podataka</button>
+		<button id="odjava">Odjava</button>
+		
+		<div id="izmenaPodatakaDiv">
+			<p hidden>password: <input type="text" id="password"></p>
+			<p hidden><input type="text" id="id"></p>
+			<p>Name: <input type="text" id="sellerName"></p>
+			<p>Surname: <input type="text" id="surname"></p>
+			<p>Username: <input type="text" id="userName"></p>
+			<p>Old password: <input type="text" id="oldPassword"></p>
+			<p>New password: <input type="text" id="newPassword"></p>
+			<button id="snimiPodatke">Snimi</button>
+		</div>
+		
+		<div id="listaKorisnikaDiv">
+			<h2>Lista Korisnika</h2>
+			<table id="listaKorisnika" class="table table-striped"></table>
+		</div>
+		
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="administrator.js"></script>
+		
+
+	</body>
+</html>
